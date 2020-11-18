@@ -13,7 +13,7 @@ end
 using_uniq([1,2,3,4,4,2,])
 
 def using_flatten(array)
-  array.flatten
+  array.flatten!
   return array
 
 end

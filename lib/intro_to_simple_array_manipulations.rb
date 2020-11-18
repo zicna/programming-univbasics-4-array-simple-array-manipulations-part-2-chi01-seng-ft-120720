@@ -5,3 +5,29 @@ end
 def using_insert(array, new_el)
   return array.insert(4, new_el)
 end
+
+def using_uniq(array)
+  return array.uniq
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

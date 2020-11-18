@@ -16,6 +16,7 @@ def using_flatten(array)
   return array.flatten
 
 end
+using_flatten([1,2,3,4,4,2,])
 
 
 

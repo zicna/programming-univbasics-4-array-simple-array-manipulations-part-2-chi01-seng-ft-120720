@@ -7,7 +7,8 @@ def using_insert(array, new_el)
 end
 
 def using_uniq(array)
-  return array.uniq
+  array.uniq
+  return array
 end
 using_uniq([1,2,3,4,4,2,])
 

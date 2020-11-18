@@ -9,6 +9,7 @@ end
 def using_uniq(array)
   return array.uniq
 end
+using_uniq([1,2,3,4,4,2,])
 
 
 

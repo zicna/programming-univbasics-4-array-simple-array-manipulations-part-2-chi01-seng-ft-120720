@@ -21,10 +21,10 @@ using_flatten([1,2,3, [1,2], [44,55], 4,4,2,])
 
 
 def using_delete(array, string)
-  return array.delete(string)
-
+  array.delete(string)
+  return array
 end
-
+using_delete(["a", "b", "c", "d", "e"], "a")
 
 
 

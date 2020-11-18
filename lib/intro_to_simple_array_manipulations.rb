@@ -27,7 +27,7 @@ end
 using_delete(["a", "b", "c", "d", "e"], "a")
 
 def using_delete_at(array, num)
-  return array.delete_at(integer) 
+  return array.delete_at(num) 
 end
 
 

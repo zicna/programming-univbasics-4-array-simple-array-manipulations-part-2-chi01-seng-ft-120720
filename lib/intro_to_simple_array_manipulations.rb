@@ -20,12 +20,7 @@ end
 using_flatten([1,2,3, [1,2], [44,55], 4,4,2,])
 
 
-def using_delete(array, string)
-  del_el = array.delete(string)
-  return array, del_el
-  
-end
-using_delete(["a", "b", "c", "d", "e"], "a")
+
 
 
 
